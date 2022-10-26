@@ -16,7 +16,13 @@ body{
 
 }
 
+img{
+    width: 100px;
+    height: 100px;
+}
+
 #cabecera{
+    display: flex;
     background: blue;
     color: white;
     font-weight: bold;
@@ -24,6 +30,10 @@ body{
     margin: 0;
     padding: 0.5em;
 
+}
+.tex_cab{
+    padding-top: 70px;
+    font-size: 20px;
 }
 
 #post{
